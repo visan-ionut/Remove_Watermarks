@@ -2,7 +2,7 @@
 Remove Watermarks
 =================
 
-In the context of this project, i have implemented
+In the context of this project, I have implemented
 a method for removing graphic elements from an image.
 The elements to be removed are intended to mark
 copyright ownership of an image and are known in
