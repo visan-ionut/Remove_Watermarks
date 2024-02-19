@@ -26,6 +26,11 @@ watermark are sought in windows of the same resolution overlaid on the
 binarized shape of the image containing occurrences of the watermark.
 A match is considered when, after the described overlay, a very high
 proportion of cells with a value of 1 in the binarized shape of the
-watermark also have a value of 1 in the overlaid window. Cells with a
-value of 0 in the binarized shape of the watermark are not considered
+watermark also has a value of 1 in the overlaid window. Cells with a
+value of 0 in the binarized shape of the watermark is not considered
 in the matching process.
+
+!!! Additionally, I have worked on a version of this project that includes
+optimizations with parallelization and achieves considerably better
+execution times. I am uploading only this version as it is simpler and
+easier to comprehend. If you need the optimized version, please let me know.
